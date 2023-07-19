@@ -1,0 +1,39 @@
+Geog592 - Lab2
+Lab2 is due in one week before class.
+
+Please create a "submission" folder in your onyen folder and copy your completed lab2 folder to it. (1 Point)
+4 Points for each question below.
+
+
+(1) In q1.py, please ask a user to input the radius value for a circle, then prompt the user with its area and perimeter values.
+
+(2) In q2.py, please ask a user to input a list of numbers, separated by space, then prompt the user with the average, median, sum of the list, and also output a sorted list. You are not allowed to use any modules (such as numpy) to complete this question.
+
+(3) In q3.py, please find NC2010.txt in lab2 folder first, then calculate the population change for each county from 2000-2010, and output the result to a textfile ( ncpopchg.txt).
+You could use this output format -
+CountyName, PopChg%
+....
+Orange, 21.11%
+Durham, 17.12%
+...
+An example of writing to a text file:
+	f = open("temp.txt", "w")
+	f.write("How are you?")
+	f.writelines(lines)
+	f.close()
+
+(4) In q4.py, please modify q3.py, so you can output a sorted county list, based on populate change from 2000-2010, save the output to ncpopchgSorted.txt.
+
+(5) Given two list of coordinates -
+list1 =[(10,20),(25,8),(34,22),(17,35),(9,1),(31,20),(44,11)]
+list2 = [(1,21),(19,22),(23,12),(51,26),(78,61),(41,17),(11,21),(81,10),(79,51)]
+In your q5.py, please find the mean center of both point lists and output the value; please find the average distance between a point in list1 and a point in list2.
+
+(6) p6.py: Please find two text files in lab2 folder. Cities.txt contains a list of cities, along with their SPC(FEET) coordinate values. Locations.txt contains a list of candidate locations, along with their coordinate values (Also in SPC FEET). The rule for selecting the best location for a regional human resource department is simple ¨C the location which has the minimum distance from all cities. Write a python script to find out the best location. Please output (a) best location id (b) its average distance (in miles) from all cities.
+
+Example of reading text files:
+f1 = open("lab2.txt", "r")
+list2 = f1.readline()
+print list2
+f1.close()
+

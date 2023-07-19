@@ -1,0 +1,4 @@
+City Name, x, y
+Greensboro, 1754117, 847860
+Durham, 2024027, 811195
+Raleigh, 2100008, 755093
